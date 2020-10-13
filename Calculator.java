@@ -29,7 +29,7 @@ public class Calculator extends javax.swing.JFrame {
                         jTextField1.setText(Double.toString(answer));
                         jLabel1.setText(num + "+"+num2);
                         break;
-                    case 2: //substraction
+                    case 2: //subtraction
                         num2= Double.parseDouble(jTextField1.getText());
                         answer= num - num2;
                         jTextField1.setText(Double.toString(answer));
